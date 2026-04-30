@@ -34,13 +34,27 @@ Sistema de gestión desarrollado en Laravel para administrar un negocio de galle
 
 ### Inicio de Sesión
 
+Acceso al sistema mediante correo y contraseña. Solo los usuarios registrados pueden ingresar al panel de administración.
+
 <div align="center">
   <img src="public/assets/img/screenshots/img-login.png" alt="Login" width="80%"/>
 </div>
 
 ---
 
+### Dashboard
+
+Vista general del negocio en tiempo real. Muestra métricas clave como total de ventas, ingresos del día y gráficas de ganancias y ventas por hora, permitiendo tomar decisiones rápidas sin necesidad de navegar entre módulos.
+
+<div align="center">
+  <img src="public/assets/img/screenshots/img-dashboard-1.png" alt="Dashboard" width="100%"/>
+</div>
+
+---
+
 ### Gestión de Productos
+
+Catálogo completo del inventario. Permite registrar productos con nombre, descripción, precio, stock e imagen. Los productos pueden editarse, desactivarse y se muestran paginados ordenando siempre los activos primero.
 
 <div align="center">
   <img src="public/assets/img/screenshots/img-productos-inventario.png" alt="Inventario de Productos" width="100%"/>
@@ -50,10 +64,20 @@ Sistema de gestión desarrollado en Laravel para administrar un negocio de galle
 
 ### Gestión de Ventas
 
+Registro de pedidos con múltiples productos en una sola transacción. El sistema valida el stock disponible en tiempo real, calcula subtotales y el total automáticamente, y descuenta las unidades vendidas del inventario al confirmar. Las ventas pueden cancelarse restaurando el stock original.
+
 <div align="center">
-  <img src="public/assets/img/screenshots/img-ventas-pedidos.png" alt="Ventas y Pedidos" width="49%"/>
-  &nbsp;
-  <img src="public/assets/img/screenshots/img-reporte-ventas.png" alt="Reporte de Ventas" width="49%"/>
+  <img src="public/assets/img/screenshots/img-ventas-pedidos.png" alt="Ventas y Pedidos" width="100%"/>
+</div>
+
+---
+
+### Reporte de Ventas
+
+Genera un reporte en PDF con el detalle de productos vendidos: cantidad de ventas, total recibido y total esperado por producto, con fila de totales al final. El archivo se descarga directamente desde el navegador con fecha y hora de impresión incluidas.
+
+<div align="center">
+  <img src="public/assets/img/screenshots/img-reporte-ventas.png" alt="Reporte de Ventas" width="100%"/>
 </div>
 
 ---
