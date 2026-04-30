@@ -120,7 +120,7 @@
                                         <p class="text-xs font-weight-bold mb-0">Admin</p>
                                     </td>
                                     <td class="text-center">
-                                        <p class="text-xs font-weight-bold mb-0">admin@softui.com</p>
+                                        <p class="text-xs font-weight-bold mb-0">admin@biscuit.com</p>
                                     </td>
                                     <td class="text-center">
                                         <span class="text-secondary text-xs font-weight-bold">16/06/18</span>
