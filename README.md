@@ -19,10 +19,6 @@ Sistema de gestión desarrollado en Laravel para administrar un negocio de galle
 ### Dashboard Principal
 
 <div align="center">
-  <img src="public/assets/img/screenshots/img-dashboard-1.png" alt="Dashboard 1" width="100%"/>
-</div>
-
-<div align="center">
   <img src="public/assets/img/screenshots/img-dashboard-2.png" alt="Dashboard 2" width="49%"/>
   &nbsp;
   <img src="public/assets/img/screenshots/img-dashboard-3.png" alt="Dashboard 3" width="49%"/>
